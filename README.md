@@ -56,8 +56,6 @@ Make sure to configure your `.env` file with the required details.
 ## Contributing
 Feel free to open issues or submit pull requests to improve the project.
 
-## License
-This project is open-source and available under the MIT License.
 
 ---
 🔥 **Happy Minting!** 🚀
