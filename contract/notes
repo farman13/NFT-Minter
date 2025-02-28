@@ -1,0 +1,2 @@
+Compile : npx hardhat compile  
+Deploy : npx hardhat ignition deploy ./ignition/modules/NFT.js --network sepolia
