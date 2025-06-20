@@ -34,7 +34,7 @@ function App() {
     formData.append('file', file);
     formData.append('toAddress', toAddress.current);
 
-    const response = await axios.post("http://localhost:3000/mintNFT", formData, {
+    const response = await axios.post("https://nft-minter-b.vercel.app/mintNFT", formData, {
       headers: {
         'Content-Type': 'multipart/form-data',
       },
