@@ -15,6 +15,10 @@ const upload = multer({ storage: storage });
 app.use(express.json());
 app.use(cors());
 
+app.get('/', (req, res) => {
+    res.send("Hello from server")
+})
+
 app.post('/mintNFT', upload.single('file'), async function (req, res) {
 
     const imgfile = req.file;
