@@ -1,6 +1,10 @@
 # NFT Minter Website
 
+Live Link : https://nft-minter-13.vercel.app/
+
 A decentralized NFT minter where users can upload and mint any image as an NFT and view it in their wallet. Built with **Solidity, Hardhat, IPFS, Node.js, Express.js, and React.js**.
+
+![NFT Screenshot](./minterss.png)
 
 ## Features
 - Upload an image and mint it as an NFT
